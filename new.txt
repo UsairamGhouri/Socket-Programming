@@ -1,0 +1,11 @@
+You are required to design and implement a UDP based file transfer application that supports at least two clients
+connected at the same time.
+
+The system will operate as follows:
+  - Each client first sends a ping message to the server to check availability.
+   - The server replies to the ping message to confirm it is active and ready.
+   - The client calculates the Round Trip Time (RTT) by measuring the time between sending the ping and receiving the ping.
+
+After connectivity is confirmed, clients can send files to each other using UDP packets with the server acting as an intermediary
+to route packets between clients. 
+Each client must be handled independently so that multiple clients can transfer files concurrently without affecting one another.
