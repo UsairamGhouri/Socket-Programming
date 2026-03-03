@@ -81,3 +81,8 @@ Protocol Details
 -   **UDP**: Used for RTT testing and the Assessment module for low-overhead communication.
 
 -   **TCP**: Used for audio, video, and mail services to ensure reliable, ordered data delivery.
+
+License
+-------
+
+This project is licensed under the terms provided in the [LICENSE](./LICENSE) file.
